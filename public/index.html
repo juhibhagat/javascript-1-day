@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function form(){
+            window.document.forms[0].elements[2].value="Login"; 
+            window.document.images[1].src="../src/image/a1.jpg";
+            window.document.images[2].src="../src/image/a1.jpg";
+            window.document.images[0].src="../src/image/a1.jpg";
+            window.document.forms[1].elements[2].value="submit";
+        }
+    </script>
+</head>
+<body onload="form()"> 
+ <form >
+    <img width="200" height="300">
+    <div>
+        <label for="firstName">First Name : </label>
+        <input type="text" name="firstName" >
+        <input type="file">
+    </div>
+    <input type="button">
+ </form>
+ <div>
+    <img  width="100" height="100">
+    <img width="100" height="100">
+    <form >
+        <div>
+            <label for="Register">Register</label>
+            <input type="text" name="Register" >
+            <label for="lastName">LastName</label>
+            <input type="text" name="lastName" >
+        <input type="button">
+        </div>
+    </form>
+ </div>
+ 
+    
+</body>
+</html>
